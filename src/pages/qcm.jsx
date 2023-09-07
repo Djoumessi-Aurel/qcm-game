@@ -3,7 +3,7 @@ import data_ from "@/fakedata/qcm";
 import { useRouter } from "next/router";
 
 // let data = data_.filter((value, index) => index < 2)
-  let data = data_.filter((value, index) => index < 5).sort(() => 0.5 - Math.random())
+  let data = data_.sort(() => 0.5 - Math.random())
 
 const QCM = () => {
   const [choice, setChoice] = useState(-1);

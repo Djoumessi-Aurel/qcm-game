@@ -9,7 +9,7 @@ export default function Page() {
       style={{ width: 600 }}
     >
       <p className="p-5 mb-20 font-mono text-xl text-center">
-        BIENVENU SUR MON SITE DE QCM
+        BIENVENU SUR MON SITE DE QCM <br /> <i>&copy; igea 2023</i>
       </p>
       <p className="flex justify-around">
         <button
